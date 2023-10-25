@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!-- zxx는 웹 페이지의 주 언어를 쉽게 파악할 수 없는 상황에서 HTML 적합성 검사를 통과해야할 때 사용 -->
+<!-- 영어로 채워진것처럼 보이지만 오류발생 -->
+<!-- 국가 코드 변경후 적합성검사를 해야함 -->
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choi Gyeongrak Bio Page</title>
+   <!--아이콘 폰트 적용하기  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <!-- header -->
+  <header>
+    <!-- HTML 구조의 핵심인 container 클래스가 포함된 div -->
+    <!-- 전체 기준 너비(1140px)를 유지하기 위한 래퍼(wrapper)역할을함 -->
+    <div class="container"> 
+      <h1>
+        <!-- scroll animationMove()함수를 실행하기 위해 data-animation-scroll="true" data-target="#main"추가 -->
+        <!-- data-target속성으로 animation-Scroll과 target속성 -->
+        <button data-animation-scroll="true" data-target="#main">RAK</button>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <button data-animation-scroll="true" data-target="#about">
+              About
+            </button>
+          </li>
+          <li>
+            <button data-animation-scroll="true" data-target="#features">
+              Features
+            </button>
+          </li>
+          <li>
+            <button data-animation-scroll="true" data-target="#portfolio">
+              Portfolio
+            </button>
+          </li>
+          <li>
+            <button data-animation-scroll="true" data-target="#contact">
+              Contact
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- //end header -->
+
+  <!-- Main -->
+  <main id="main">
+    <div class="container">
+      <h4>Welcome</h4>
+      <h2 class="active">I`M A <span></span></h2>
+      <p>First, solve the problem. Then, write the code. <br>― John Johnson</p>
+      <button class="download">DOWNLOAD CV</button>
+      <button class="mouse"><i class="fa-solid fa-computer-mouse"></i></button>
+    </div>
+  </main>
+  <!-- //end Main -->
+  <!-- About Me -->
+  <!-- 영역을 구분하여 디자인을 다르게 하기위해 id="about"설정 -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="title">
+        <h4>Who Am I</h4>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-self">
+        <div class="left">
+          <img src="images/me_alone.jpg" alt="">
+        </div>
+        <div class="right">
+          <h3>Hello, <strong>I`m Rakcoding</strong></h3>
+          <p>I Am Studying Development And Want To Become A Developer.</p>
+          <p>Coding like poetry should be short and concise.<br> ― Santosh Kalwar</p>
+          <p>Make it work, make it right, make it fast.<br> ― Kent Beck</p>
+          <p>LClean code always looks like it was written by someone who cares.<br> — Robert C. Martin</p>
+          <div class="social">
+            <!-- social 클래스의 div태그의 하위에 a태그로 감싸서 아이콘 폰트가 텍스트 취급 -->
+            <a href="#">
+              <!-- Font Awesome 사용 -->
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/raknrak" target="_blank" >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.twitch.tv/raknrak_" target="_blank" >
+              <i class="fa-brands fa-twitch"></i>
+            </a>
+            <a href="https://youtube.com/@raknrak" target="_blank" >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end About Me -->
+  <!-- What I Do -->
+  <section id="features" class="do">
+    <div class="container">
+      <div class="title">
+        <h4>Features</h4>
+        <h2>What I Do</h2>
+      </div>
+      <div class="do-me">                
+        <!-- 3단 분리하기 위해 do-inner 클래스 3개 -->
+        <div class="do-inner">
+          <div class="icon">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div class="content">
+            <h3>HTML5</h3>
+            <p>HTML (HyperText Markup Language) is the most basic building block of the Web.<br>
+              It defines the meaning and structure of web content. <br>
+              Other technologies besides HTML are generally used to describe a web page's appearance/ presentation (CSS) or functionality/ behavior (JavaScript).</p>
+          </div>
+        </div>        
+        <div class="do-inner">
+          <div class="icon">
+            <i class="fa-brands fa-css3-alt"></i>        
+          </div>
+          <div class="content">
+            <h3>CSS3</h3>
+            <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).<br>
+               CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+          </div>
+        </div>
+        <div class="do-inner">
+          <div class="icon">
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <div class="content">
+            <h3>JavaScript</h3>
+            <p>JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.<br>
+               While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.<br></p>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- //end What I Do -->
+
+  <!-- Background -->
+  <div class="bg"></div>  
+  <!-- //end Background-->
+
+  <!-- PortFolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="title">
+        <h4>PORTFOLIOBACK</h4>
+        <h2>PortFolio</h2>
+      </div>
+      <div class="portfolio-me">
+        <div class="portfolio-inner">
+          <img src="images/mock1.png" alt="">
+          <!-- 콘텐츠 자체의 중요성을 강조하기 위해 strong 태그 사용 -->
+          <strong>BRANDING</strong>
+          <h3>Package Design</h3>
+        </div>
+        <div class="portfolio-inner">
+          <img src="images/mock2.png" alt="">
+          <strong>DEVELOPMENT</strong>
+          <h3>Tablet App Dev</h3>
+        </div>
+        <div class="portfolio-inner">
+          <img src="images/mock3.png" alt="">
+          <strong>MARKETING</strong>
+          <h3>Coka Cola </h3>
+        </div>
+        <div class="portfolio-inner">
+          <img src="images/mock4.png" alt="">
+          <strong>APP</strong>
+          <h3>FaceBook Clone</h3>
+        </div>
+        <div class="portfolio-inner">
+          <img src="images/mock5.png" alt="">
+          <strong>APP</strong>
+          <h3>Netflix Clone</h3>
+        </div>
+        <div class="portfolio-inner">
+          <img src="images/mock6.png" alt="">
+          <strong>WEB</strong>
+          <h3>FirmBee Web</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //end PortFolio -->
+   <!-- Contact With Me -->
+   <section id="contact" class="contact">
+    <div class="container">
+      <div class="title">
+        <h4>CONTACT</h4>
+        <h2>Contact With Me</h2>
+      </div>
+      <div class="contact-me">
+        <!-- 왼쪽과 오른쪽으로 나누기 left, right 클래스 -->
+        <div class="left">   <!--왼쪽 영역-->
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="info-text">
+              <h3>phone</h3>
+              <p>010-1234-5678</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-envelope-open-text"></i>
+            </div>
+            <div class="info-text">
+              <h3>email</h3>
+              <p>peter6617@gmail.com</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-location-crosshairs"></i>
+            </div>
+            <div class="info-text">
+              <h3>address</h3>
+              <p>Nambusunhwan-ro 114-gil, Geumcheon-gu, Seoul, Republic of Korea</p>
+            </div>
+          </div>
+        </div>
+        <div class="right"><!--오른쪽 영역-->
+          <form action="#">
+            <!--폼 형태 만들어주기-->
+            <div class="form-group">
+              <label for="name">name</label>
+              <input type="text" id="name"> <!--한 줄 입력 요소이므로 type을 text로-->
+            </div>
+            <div class="form-group">
+              <label for="email">email</label>
+              <input type="text" id="email"><!--한 줄 입력 요소이므로 type을 text로-->
+            </div>
+            <div class="form-group">
+              <label for="msg">message</label>
+              <textarea id="msg"></textarea><!--여러 줄 입력 요소이므로 textarea태그로-->
+            </div>
+            <button>send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //end Contact With Me -->
+  <script src="script.js"></script>  
+</body>
+</html>
