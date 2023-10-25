@@ -6,7 +6,7 @@
     const spanEl = document.querySelector("main h2 span");
 
 //화면에 표시할 문장 배열
-const txtArr = ['Web Publisher', 'Front-End Developer', 'Web UI Designer', 'UX Designer', 'Back-End Developer'];
+const txtArr = ['Am Geongrak','Wanna Be A Front-End Developer', 'Wanna Be A Back-End Developer','Wanna Be A Full-Stack Developer'];
 
 //배열의 인덱스 초기값
 let index = 0;
