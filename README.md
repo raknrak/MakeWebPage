@@ -12,6 +12,7 @@
 ![WebPage_01-min](https://github.com/raknrak/MakeWebPage/assets/140072536/b2fc1e05-f4ce-482f-9c27-3e56eab7e292)
 
 ## Web Brower 크기에 따라 달라지는 Web Page
+![WebPage_01](https://github.com/raknrak/MakeWebPage/assets/140072536/6bb73e66-7f5e-4b41-8ebb-9d6729151142)
 
 ## <img alt="Html" src ="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/>
 
