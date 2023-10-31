@@ -2,12 +2,15 @@
 ```
 2023년 09월 19일 ~ 2024년 03월 25일
 ```
-## 반응형 Web Page 구현하기
+## 목표
 
 : HTML5, CSS3, JavaScript를 사용한 반응형 Wep Page 구현하기
 ```
-프로젝트 기간 : 2023년 10월 16일 ~ 2023년 10월 27일
+기간 : 2023년 10월 16일 ~ 2023년 10월 27일
 ```
+## Web Page 모습
+
+## Web Brower 크기에 따라 달라지는 Web Page
 
 ## <img alt="Html" src ="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/>
 
