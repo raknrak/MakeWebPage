@@ -9,6 +9,7 @@
 기간 : 2023년 10월 16일 ~ 2023년 10월 27일
 ```
 ## Web Page 모습
+![WebPage_01-min](https://github.com/raknrak/MakeWebPage/assets/140072536/b2fc1e05-f4ce-482f-9c27-3e56eab7e292)
 
 ## Web Brower 크기에 따라 달라지는 Web Page
 
