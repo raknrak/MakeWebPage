@@ -2,9 +2,9 @@
 ```
 2023년 09월 19일 ~ 2024년 03월 25일
 ```
-## 개인 Web Page 만들기 Project
+## 반응형 Web Page 구현하기
 
-: HTML5, CSS3, JavaScript를 사용한 개인 Wep Page 구현하기
+: HTML5, CSS3, JavaScript를 사용한 반응형 Wep Page 구현하기
 ```
 프로젝트 기간 : 2023년 10월 16일 ~ 2023년 10월 27일
 ```
